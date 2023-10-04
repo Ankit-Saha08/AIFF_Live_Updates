@@ -54,6 +54,7 @@ button {
 
 .important__link {
     display: flex;
+    flex-wrap: wrap;
     gap: 1rem;
     justify-content: center;
 }
@@ -62,4 +63,10 @@ button {
     cursor: pointer;
     color: black;
     background: white;
+}
+
+@media only screen and (max-width: 600px) {
+    video{
+        width: 100%;
+    }
 }
