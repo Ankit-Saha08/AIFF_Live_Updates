@@ -18,7 +18,7 @@
 
 <body>
     <div class="video-container">
-        <video autoplay loop muted>
+        <video id="stadium" autoplay loop muted>
             <source src="1040929706-preview.mp4" type="video/mp4">
         </video>
         <center>
@@ -31,10 +31,10 @@
 
     <br>
     <hr>
-    <p>The India national football team is the national football team of India and is governed by the All India Football
+    <p id="intro">The India national football team is the national football team of India and is governed by the All India Football
         Federation. It is a member of the Asian Football Confederation. Since 1948, the AIFF has been affiliated with
         FIFA, the international governing body for world football.
-    <p> <!--Paragraph tag-->
+    <p id="data"> <!--Paragraph tag-->
         <!-- <strong></strong> and <b></b> -> used to bold & <em></em> and <i></i> -> used to emphasize in italics -->
 
         <hr> <!--This is used provide a horizontal rule/line across the page-->
@@ -82,9 +82,9 @@
 
     <br><br><br> <!--Adding TABLES-->
     <h3>Kits:- </h3>
-    <table>
+    <table id="kit">
         <!-- <thead> tag is use to add headings of the table and <tbody> is used to add datas-->
-        <thead>
+        <thead class="col">
             <!-- <tr> tag is used to write in new rows and <th> tag is used to write in new columns -->
             <tr>
                 <th>HOME KIT</th>
@@ -92,12 +92,12 @@
                 <th>THIRD KIT</th>
             </tr>
         </thead>
-        <tbody>
+        <tbody class="col">
             <!-- <tr> tag is used to write in new rows and <td> tag is used to write in new columns -->
             <tr>
                 <td><img src="Home.JPG" alt="Image unavailable" height="90" width="80"></td>
                 <td><img src="Away.JPG" alt="Image unavailable" height="90" width="80"></td>
-                <td><img src="third.jpg" alt="No Third Kit" height="40" width="30"></td>
+                <td><img src="third.jpg" alt="No Third Kit" height="90" width="80"></td>
             </tr>
         </tbody>
     </table>
@@ -109,8 +109,7 @@
     <ol type="1" class="important__link">
         <li><a href="https://www.indiansuperleague.com/" target="_blank"><button class="link_button" type="submit">Go to
                     ISL homepage</button></a></li><br>
-        <li><a href="https://i-league.org/" target="_blank"><button class="link_button" type="reset">Go to I-League
-                    homepage</button></a></li><br>
+        <li><a href="https://i-league.org/" target="_blank"><button class="link_button" type="reset">Go to I-League homepage</button></a></li><br>
         <li><a href="https://en.wikipedia.org/wiki/Indian_Women%27s_League" target="_blank"><button class="link_button"
                     type="menu">Go to IWL homepage</button></a></li>
     </ol>
@@ -121,33 +120,26 @@
     <!-- Use img tag to insert images from chosen destination -->
     <center>
         <div class="imgContainer">
-            <a href="https://www.the-aiff.com/" target="_blank"><img id="ic1" src="AIFF logo.JPG"
+            <a href="https://www.the-aiff.com/" target="_blank"><img class="logo" id="ic1" src="AIFF logo.JPG"
                     alt="Error loading image" width="70" height="100"></a>
-            <a href="https://www.indiansuperleague.com/" target="_blank"><img id="ic2" src="ISL logo.JPG"
+            <a href="https://www.indiansuperleague.com/" target="_blank"><img class="logo" id="ic2" src="ISL logo.JPG"
                     alt="Error loading image" width="100" height="100"></a>
-            <a href="https://i-league.org/" target="_blank"><img id="ic3" src="I-League logo.JPG"
+            <a href="https://i-league.org/" target="_blank"><img class="logo" id="ic3" src="I-League logo.JPG"
                     alt="Error loading image" width="140" height="80"></a>
-            <a href="https://en.wikipedia.org/wiki/Indian_Women%27s_League" target="_blank"> <img id="ic4"
+            <a href="https://en.wikipedia.org/wiki/Indian_Women%27s_League" target="_blank"> <img class="logo" id="ic4"
                     src="IWL logo.JPG" alt="Error loading image" width="100" height="100"></a>
         </div>
 
         <hr><br><br><br>
         <!-- <video> tag is used to insert videos -->
 
-        <br><br>
-        <video autoplay controls>
+        <br>
+        <video id="football" autoplay width="800" height="400" controls>
             <source src="hero-indian-super-league-2014-heroisl.mp4" type="video/mp4">
         </video>
     </center>
 
-
-
-
-
-
-
-
-    <br><br><br><br><br><br>
+    <br><br><br>
     <center>
         <h5>©RishTech Solutions 2023</h5>
     </center>
