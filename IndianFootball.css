@@ -6,6 +6,7 @@
 
 body {
     background-color: rgb(175, 175, 206);
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 button {
@@ -63,6 +64,106 @@ button {
     color: black;
     background: white;
 }
+#intro{
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: bold;
+
+}
+#data{
+    font-size: 1.2rem;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    
+}
+#datacontainer{
+    background-color:  rgb(211, 211, 227);
+    height:300px;
+    width:750px;
+    margin:60px 30px;
+    padding-top: 89px;
+    box-shadow: 4px 4px 2px 2px rgb(79, 77, 77);
+    border-radius: 10px;
+}
+#datacontainer:hover{
+ transform:scale(1.1);
+}
+#affiliated{
+    text-align: center;
+}
+.h2primary{
+    text-shadow:2px 2px whitesmoke;
+    font-size:2.1rem;
+    font-weight:bold;
+    text-align: center;
+}
+#affiliations{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+#affiliations span{
+    margin:10px 10px;
+    padding:20px 20px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    box-shadow: 4px 4px 2px 2px rgb(70, 66, 66);
+}
+#list{
+    display:flex;
+    justify-content:space-evenly;
+}
+#list h2{
+    text-align: center;
+    text-shadow: 2px 2px grey;
+}
+#list1,#list2{
+    background-color: rgb(211, 211, 227);
+    height:400px;
+    width:400px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 2px 2px rgb(70, 66, 66);
+    
+}
+#list1:hover{
+    transform:scale(1.1);
+}
+#list2:hover{
+    transform:scale(1.1);
+}
+#list1 ol li{
+    margin:10px 10px;
+    padding:10px 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+#list2 ol li{
+    margin:10px 10px;
+    padding:10px 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.col{
+    font-weight: bold;
+}
+#table{
+    display:flex;
+    justify-content: center;
+}
+#strong{
+    display:block;
+    margin:auto;
+}
+.link_button{
+ font-size: 15px;
+ font-weight: bold;
+}
+.imgContainer a img:hover{
+    transform:scale(1.2);
+}
+
 
 @media only screen and (max-width: 400px) {
     body{
