@@ -4,6 +4,10 @@
     color: white;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: rgb(175, 175, 206);
     font-family: Georgia, 'Times New Roman', Times, serif;
