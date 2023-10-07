@@ -40,10 +40,18 @@ AIFF Live Updates is designed to be user-friendly and straightforward to use. On
 - Explore the user interface to access various features and functionalities.
 
 ## Contributing
-Contributions to AIFF Live Updates are welcome! Whether you want to report a bug, suggest an enhancement, or contribute code, please follow these guidelines:
-- Check the [Contribution Guidelines](CONTRIBUTING.md) for details on how to contribute.
-- Feel free to open an [Issue](https://github.com/Ankit-Saha08/AIFF_Live_Updates/issues) to report a bug or request a feature.
-- If you want to contribute code, please fork the repository and create a pull request following the guidelines.
+* Raise an [issue](#issue). Describe the issue based on two parameters:
+  1. Issues / Errors / Bugs
+  2. Proposed Improvements / Fixes
+* Get the task assigned
+* Fork the repo
+* Follow the steps mentioned in [Getting Started](#getting-started) section
+* Create a PR and commit your changes.
+* Write the following in PR message:
+  1. Changes made
+  2. Validation of Testing done after changes
+  3. Mention the issue (#) resolved in the PR.
+* Wait for the maintainer to review and get your PR merged.
 
 Let's work together to improve AIFF Live Updates and make it even better!
 
