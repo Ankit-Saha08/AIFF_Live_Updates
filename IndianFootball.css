@@ -338,7 +338,7 @@ button {
 .navbar {
     background-color: darkblue; 
     width: 50%;
-    margin-top: 4rem;
+    margin: 1rem 0 2rem;
     border-radius: 8px;
 }
 
