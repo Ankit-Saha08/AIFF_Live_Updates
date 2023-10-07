@@ -2,7 +2,7 @@
 
 ![image](AIFF_logo.JPG)
 
-![AIFF_Live_Updates](Ankit-Saha08/AIFF_Live_Updates) is a GitHub repository that hosts a project aimed at providing live updates and information about the All India Football Federation (AIFF) and its associated events, matches, and news. This project aims to keep football enthusiasts and fans informed about the latest happenings in Indian football, with a focus on the AIFF and its various initiatives.
+[AIFF_Live_Updates]([Ankit-Saha08/AIFF_Live_Updates](https://github.com/Ankit-Saha08/AIFF_Live_Updates)) is a GitHub repository that hosts a project aimed at providing live updates and information about the All India Football Federation (AIFF) and its associated events, matches, and news. This project aims to keep football enthusiasts and fans informed about the latest happenings in Indian football, with a focus on the AIFF and its various initiatives.
 
 ## Table of Contents
 
