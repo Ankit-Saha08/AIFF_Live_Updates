@@ -40,6 +40,8 @@ button {
     z-index: -1;
 }
 
+#ic001,
+#ic002,
 #ic1,
 #ic2,
 #ic3,
@@ -304,6 +306,12 @@ button {
         margin: 0.5rem;
     }
     #ic4{
+        margin: 0.5rem;
+    }
+    #ic001{
+        margin: 0.5rem;
+    }
+    #ic002{
         margin: 0.5rem;
     }
     #football{
