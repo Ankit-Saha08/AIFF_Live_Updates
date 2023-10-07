@@ -40,7 +40,7 @@ AIFF Live Updates is designed to be user-friendly and straightforward to use. On
 - Explore the user interface to access various features and functionalities.
 
 ## Contributing
-* Raise an [issue](#issue). Describe the issue based on two parameters:
+* Raise an [issue](#issues). Describe the issue based on two parameters:
   1. Issues / Errors / Bugs
   2. Proposed Improvements / Fixes
 * Get the task assigned
