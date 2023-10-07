@@ -329,3 +329,14 @@ button {
         padding-right: 1.5rem;
     }
 }
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    align-content: center;
+    
+}
+
+.navbar ul li{
+    margin: 2vh;
+}
