@@ -4,6 +4,10 @@
     color: white;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: rgb(175, 175, 206);
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -328,4 +332,49 @@ button {
         width: 1rem;
         padding-right: 1.5rem;
     }
+}
+
+
+.navbar {
+    background-color: darkblue; 
+    width: 50%;
+    margin-top: 4rem;
+    border-radius: 8px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+.nav-list li {
+    width: 50%;
+}
+
+.nav-list li a {
+    display: block;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #ecf0f1;
+    transition: background-color 0.3s ease;
+    position: relative; 
+}
+
+.nav-list li:not(:last-child) a::after {
+    content: "|";
+    position: absolute;
+    right: -10px;
+    color: #ecf0f1;
+}
+
+.nav-list li a:hover {
+    background-color: #ffffff;
+    border-radius: 8px;
+    color: black;
 }
