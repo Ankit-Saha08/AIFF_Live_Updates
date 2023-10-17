@@ -28,6 +28,11 @@ button {
     box-shadow: 5px 8px 4px darkgrey;
     border-radius: 10px;
 }
+/* Added hovering effect */
+.I1:hover{
+    transform: scale(1.1);
+    transition: transform 1s ease-in-out;
+}
 
 .video-container {
     margin-top: 0;
@@ -58,7 +63,30 @@ button {
     padding-bottom: 1.5px;
     box-shadow: 2px 2px gray;
 }
-
+#ic1:hover{
+    transform:scale(1.1);
+    transition: transform 1s ease-in-out;
+}
+#ic2:hover{
+    transform:scale(1.1);
+    transition: transform 1s ease-in-out;
+}
+#ic3:hover{
+    transform:scale(1.1);
+    transition: transform 1s ease-in-out;
+}
+#ic4:hover{
+    transform:scale(1.1);
+    transition: transform 1s ease-in-out;
+}
+#ic001:hover{
+    transform:scale(1.1);
+    transition: transform 1s ease-in-out;
+}
+#ic002:hover{
+    transform:scale(1.1);
+    transition: transform 1s ease-in-out;
+}
 .important__link {
     display: flex;
     gap: 1rem;
@@ -94,6 +122,7 @@ button {
 }
 #datacontainer:hover{
  transform:scale(1.1);
+ transition: transform 1s ease-in-out; /*Added transition effect*/
 }
 #affiliated{
     text-align: center;
@@ -117,6 +146,22 @@ button {
     border-radius: 10px;
     box-shadow: 4px 4px 2px 2px rgb(70, 66, 66);
 }
+img{
+    border-radius: 10px;
+}
+
+#image0:hover{
+    transform:scale(1.1);
+    transition: transform 1s ease-in-out;
+}
+#image1:hover{
+    transform:scale(1.1);
+    transition: transform 1s ease-in-out;
+}
+#image2:hover{
+    transform:scale(1.1);
+    transition: transform 1s ease-in-out;
+}
 #list{
     display:flex;
     justify-content:space-evenly;
@@ -135,9 +180,12 @@ button {
 }
 #list1:hover{
     transform:scale(1.1);
+    transition: transform 1s ease-in-out; /*Added transition*/
+    
 }
 #list2:hover{
     transform:scale(1.1);
+    transition: transform 1s ease-in-out; /*Added transition*/
 }
 #list1 ol li{
     margin:10px 10px;
