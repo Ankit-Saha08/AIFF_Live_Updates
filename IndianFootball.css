@@ -109,17 +109,19 @@ button {
     text-align: center;
     display:flex;
     justify-content: center;
-    
+    text-align: left;
 }
 #datacontainer{
+    padding: 25px;
     background-color:  rgb(211, 211, 227);
-    height:300px;
+    height:fit-content;
     width:750px;
     margin:60px 30px;
-    padding-top: 89px;
+    padding-top: 39px;
     box-shadow: 4px 4px 2px 2px rgb(79, 77, 77);
     border-radius: 10px;
 }
+
 #datacontainer:hover{
  transform:scale(1.1);
  transition: transform 1s ease-in-out; /*Added transition effect*/
