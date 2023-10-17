@@ -4,6 +4,10 @@
     color: white;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: rgb(175, 175, 206);
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -24,10 +28,15 @@ button {
     box-shadow: 5px 8px 4px darkgrey;
     border-radius: 10px;
 }
+/* Added hovering effect */
+.I1:hover{
+    transform: scale(1.1);
+    transition: transform 1s ease-in-out;
+}
 
 .video-container {
     margin-top: 0;
-    height: 250px;
+    height: 300px;
     width: full;
     position: relative;
 }
@@ -40,6 +49,8 @@ button {
     z-index: -1;
 }
 
+#ic001,
+#ic002,
 #ic1,
 #ic2,
 #ic3,
@@ -52,7 +63,30 @@ button {
     padding-bottom: 1.5px;
     box-shadow: 2px 2px gray;
 }
-
+#ic1:hover{
+    transform:scale(1.1);
+    transition: transform 1s ease-in-out;
+}
+#ic2:hover{
+    transform:scale(1.1);
+    transition: transform 1s ease-in-out;
+}
+#ic3:hover{
+    transform:scale(1.1);
+    transition: transform 1s ease-in-out;
+}
+#ic4:hover{
+    transform:scale(1.1);
+    transition: transform 1s ease-in-out;
+}
+#ic001:hover{
+    transform:scale(1.1);
+    transition: transform 1s ease-in-out;
+}
+#ic002:hover{
+    transform:scale(1.1);
+    transition: transform 1s ease-in-out;
+}
 .important__link {
     display: flex;
     gap: 1rem;
@@ -88,6 +122,7 @@ button {
 }
 #datacontainer:hover{
  transform:scale(1.1);
+ transition: transform 1s ease-in-out; /*Added transition effect*/
 }
 #affiliated{
     text-align: center;
@@ -111,6 +146,22 @@ button {
     border-radius: 10px;
     box-shadow: 4px 4px 2px 2px rgb(70, 66, 66);
 }
+img{
+    border-radius: 10px;
+}
+
+#image0:hover{
+    transform:scale(1.1);
+    transition: transform 1s ease-in-out;
+}
+#image1:hover{
+    transform:scale(1.1);
+    transition: transform 1s ease-in-out;
+}
+#image2:hover{
+    transform:scale(1.1);
+    transition: transform 1s ease-in-out;
+}
 #list{
     display:flex;
     justify-content:space-evenly;
@@ -129,9 +180,12 @@ button {
 }
 #list1:hover{
     transform:scale(1.1);
+    transition: transform 1s ease-in-out; /*Added transition*/
+    
 }
 #list2:hover{
     transform:scale(1.1);
+    transition: transform 1s ease-in-out; /*Added transition*/
 }
 #list1 ol li{
     margin:10px 10px;
@@ -306,6 +360,12 @@ button {
     #ic4{
         margin: 0.5rem;
     }
+    #ic001{
+        margin: 0.5rem;
+    }
+    #ic002{
+        margin: 0.5rem;
+    }
     #football{
         max-width: 90vw;
         margin-left: 0.1rem;
@@ -323,73 +383,46 @@ button {
 }
 
 
-
-input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid ~ label {
-    font-size: 0.75em;
-    color: #999;
-    top: -5px;
-    -webkit-transition: all 0.225s ease;
-    transition: all 0.225s ease;
+.navbar {
+    background-color: darkblue; 
+    width: 50%;
+    margin: 1rem 0 2rem;
+    border-radius: 8px;
 }
 
-.styled-input {
-    float: left;
-    width: 293px;
-    margin: 1rem 0;
-    position: relative;
-    border-radius: 4px;
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
 }
 
-@media only screen and (max-width: 768px){
-    .styled-input {
-        width:100%;
-    }
+.nav-list li {
+    width: 50%;
 }
 
-.styled-input label {
-    color: #999;
-    padding: 1.3rem 30px 1rem 30px;
+.nav-list li a {
+    display: block;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #ecf0f1;
+    transition: background-color 0.3s ease;
+    position: relative; 
+}
+
+.nav-list li:not(:last-child) a::after {
+    content: "|";
     position: absolute;
-    top: 10px;
-    left: 0;
-    -webkit-transition: all 0.25s ease;
-    transition: all 0.25s ease;
-    pointer-events: none;
+    right: -10px;
+    color: #ecf0f1;
 }
 
-.styled-input.wide { 
-    width: 650px;
-    max-width: 100%;
-}
-
-input,
-textarea {
-    padding: 30px;
-    border: 0;
-    width: 100%;
-    font-size: 1rem;
-    background-color: white;
+.nav-list li a:hover {
+    background-color: #ffffff;
+    border-radius: 8px;
     color: black;
-    border-radius: 4px;
-}
-
-input:focus,
-textarea:focus { outline: 0; }
-
-input:focus ~ span,
-textarea:focus ~ span {
-    width: 100%;
-    -webkit-transition: all 0.075s ease;
-    transition: all 0.075s ease;
-}
-
-textarea {
-    width: 100%;
-    min-height: 15em;
-}
-
-.input-container {
-    width: 650px;
-    max-width: 100%;
-    margin: 20px auto 25px auto;
 }
