@@ -428,3 +428,55 @@ img{
     border-radius: 8px;
     color: black;
 }
+
+@media only screen and (max-width: 1200px) {
+
+}
+
+
+
+.navbar {
+    background-color: darkblue;
+    width: 100%;
+    margin: 1rem 0 2rem;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+    margin: 0;
+}
+
+.nav-list li {
+    width: auto;
+}
+
+.nav-list li a {
+    display: block;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #ecf0f1;
+    transition: background-color 0.3s ease;
+    position: relative;
+}
+
+.nav-list li:not(:last-child) a::after {
+    content: "|";
+    position: absolute;
+    right: 10px;
+    color: #ecf0f1;
+}
+
+.nav-list li a:hover {
+    background-color: #ffffff;
+    border-radius: 8px;
+    color: black;
+}
