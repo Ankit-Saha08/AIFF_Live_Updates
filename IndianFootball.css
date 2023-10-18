@@ -428,3 +428,12 @@ img{
     border-radius: 8px;
     color: black;
 }
+#scrollToTopBtn{
+    cursor: pointer;
+    /* position: fixed; */
+    margin-left:1430px;
+}
+
+i{
+    font-size: larger;
+}
