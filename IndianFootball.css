@@ -4,6 +4,16 @@
     color: white;
 }
 
+.strt {
+    font-size: 2em;
+    animation-name: reveal;
+    animation-duration: 5s;
+}
+@keyframes reveal{
+    0%{transform:scale(0);}
+    50%{transform:scale(1);}
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -30,8 +40,9 @@ button {
     box-shadow: 5px 8px 4px darkgrey;
     border-radius: 10px;
 }
+
 /* Added hovering effect */
-.I1:hover{
+.I1:hover {
     transform: scale(1.1);
     transition: transform 1s ease-in-out;
 }
@@ -65,30 +76,37 @@ button {
     padding-bottom: 1.5px;
     box-shadow: 2px 2px gray;
 }
-#ic1:hover{
-    transform:scale(1.1);
+
+#ic1:hover {
+    transform: scale(1.1);
     transition: transform 1s ease-in-out;
 }
-#ic2:hover{
-    transform:scale(1.1);
+
+#ic2:hover {
+    transform: scale(1.1);
     transition: transform 1s ease-in-out;
 }
-#ic3:hover{
-    transform:scale(1.1);
+
+#ic3:hover {
+    transform: scale(1.1);
     transition: transform 1s ease-in-out;
 }
-#ic4:hover{
-    transform:scale(1.1);
+
+#ic4:hover {
+    transform: scale(1.1);
     transition: transform 1s ease-in-out;
 }
-#ic001:hover{
-    transform:scale(1.1);
+
+#ic001:hover {
+    transform: scale(1.1);
     transition: transform 1s ease-in-out;
 }
-#ic002:hover{
-    transform:scale(1.1);
+
+#ic002:hover {
+    transform: scale(1.1);
     transition: transform 1s ease-in-out;
 }
+
 .important__link {
     display: flex;
     gap: 1rem;
@@ -100,285 +118,350 @@ button {
     color: black;
     background: white;
 }
-#intro{
+
+#intro {
     font-size: 1.2rem;
     text-align: center;
     font-weight: bold;
 
 }
-#data{
+
+#data {
     font-size: 1.2rem;
     text-align: center;
-    display:flex;
+    display: flex;
     justify-content: center;
-    
+    text-align: left;
 }
-#datacontainer{
-    background-color:  rgb(211, 211, 227);
-    height:300px;
-    width:750px;
-    margin:60px 30px;
-    padding-top: 89px;
+
+#datacontainer {
+    padding: 25px;
+    background-color: rgb(211, 211, 227);
+    height: fit-content;
+    width: 750px;
+    margin: 60px 30px;
+    padding-top: 39px;
     box-shadow: 4px 4px 2px 2px rgb(79, 77, 77);
     border-radius: 10px;
 }
-#datacontainer:hover{
- transform:scale(1.1);
- transition: transform 1s ease-in-out; /*Added transition effect*/
+
+#datacontainer:hover {
+    transform: scale(1.1);
+    transition: transform 1s ease-in-out;
+    /*Added transition effect*/
 }
-#affiliated{
+
+#affiliated {
     text-align: center;
 }
-.h2primary{
-    text-shadow:2px 2px whitesmoke;
-    font-size:2.1rem;
-    font-weight:bold;
+
+.h2primary {
+    text-shadow: 2px 2px whitesmoke;
+    font-size: 2.1rem;
+    font-weight: bold;
     text-align: center;
 }
-#affiliations{
+
+#affiliations {
     display: flex;
     text-align: center;
     justify-content: center;
 
 }
-#affiliations span{
-    margin:10px 10px;
-    padding:20px 20px;
+
+#affiliations span {
+    margin: 10px 10px;
+    padding: 20px 20px;
     background-color: antiquewhite;
     border-radius: 10px;
     box-shadow: 4px 4px 2px 2px rgb(70, 66, 66);
 }
-img{
+
+img {
     border-radius: 10px;
 }
 
-#image0:hover{
-    transform:scale(1.1);
+#image0:hover {
+    transform: scale(1.1);
     transition: transform 1s ease-in-out;
 }
-#image1:hover{
-    transform:scale(1.1);
+
+#image1:hover {
+    transform: scale(1.1);
     transition: transform 1s ease-in-out;
 }
-#image2:hover{
-    transform:scale(1.1);
+
+#image2:hover {
+    transform: scale(1.1);
     transition: transform 1s ease-in-out;
 }
-#list{
-    display:flex;
-    justify-content:space-evenly;
+
+#list {
+    display: flex;
+    justify-content: space-evenly;
 }
-#list h2{
+
+#list h2 {
     text-align: center;
     text-shadow: 2px 2px grey;
 }
-#list1,#list2{
+
+#list1,
+#list2 {
     background-color: rgb(211, 211, 227);
-    height:400px;
-    width:400px;
+    height: 400px;
+    width: 400px;
     border-radius: 10px;
     box-shadow: 4px 4px 2px 2px rgb(70, 66, 66);
-    
+
 }
-#list1:hover{
-    transform:scale(1.1);
-    transition: transform 1s ease-in-out; /*Added transition*/
-    
+
+#list1:hover {
+    transform: scale(1.1);
+    transition: transform 1s ease-in-out;
+    /*Added transition*/
+
 }
-#list2:hover{
-    transform:scale(1.1);
-    transition: transform 1s ease-in-out; /*Added transition*/
+
+#list2:hover {
+    transform: scale(1.1);
+    transition: transform 1s ease-in-out;
+    /*Added transition*/
 }
-#list1 ol li{
-    margin:10px 10px;
-    padding:10px 10px;
+
+#list1 ol li {
+    margin: 10px 10px;
+    padding: 10px 10px;
     font-size: 15px;
     font-weight: bold;
 }
-#list2 ol li{
-    margin:10px 10px;
-    padding:10px 10px;
+
+#list2 ol li {
+    margin: 10px 10px;
+    padding: 10px 10px;
     font-size: 15px;
     font-weight: bold;
 }
-.col{
+
+.col {
     font-weight: bold;
 }
-#table{
-    display:flex;
+
+#table {
+    display: flex;
     justify-content: center;
 }
-#strong{
-    display:block;
-    margin:auto;
+
+#strong {
+    display: block;
+    margin: auto;
 }
-.link_button{
- font-size: 15px;
- font-weight: bold;
+
+.link_button {
+    font-size: 15px;
+    font-weight: bold;
 }
-.imgContainer a img:hover{
-    transform:scale(1.2);
+
+.imgContainer a img:hover {
+    transform: scale(1.2);
 }
 
 
 @media only screen and (max-width: 400px) {
-    body{
+    body {
         max-width: 100vw;
         justify-content: center;
         margin: 1rem;
     }
-    .video-container center{
+
+    .video-container center {
         /* padding-left: 1rem; */
         justify-content: center;
     }
-    #stadium{
+
+    #stadium {
         margin-top: 0.1rem;
         justify-content: center;
     }
-    .strt{
+
+    .strt {
         font-size: 1rem;
         justify-content: center;
     }
-    .I1{
+
+    .I1 {
         margin-top: 9rem;
         width: 12rem;
         height: 4.5em;
     }
-    #intro{
+
+    #intro {
         justify-content: center;
     }
-    #kit{
+
+    #kit {
         width: 100vw;
     }
-    .col{
+
+    .col {
         padding: rem;
     }
-    .important__link{
+
+    .important__link {
         list-style: none;
         gap: 0.5rem;
         padding-left: 0.5rem;
         justify-content: center;
     }
-    .link_button{
+
+    .link_button {
         width: 7rem;
         height: 5rem;
         font-size: 0.8rem;
         font-weight: 800;
     }
-    .imgContainer{
+
+    .imgContainer {
         justify-content: center;
         padding: 0;
     }
-    #kit th{
+
+    #kit th {
         font-size: 15px;
         padding-right: 2.2rem;
     }
-    #kit td{
+
+    #kit td {
         width: 1rem;
         padding-right: 1.5rem;
     }
-    .logo{
+
+    .logo {
         padding: 0;
         width: 8rem;
         height: 6rem;
         margin: 0.1rem;
     }
-    #ic1{
+
+    #ic1 {
         margin: 0.5rem;
     }
-    #ic3{
+
+    #ic3 {
         margin: 0.5rem;
     }
-    #football{
+
+    #football {
         max-width: 90vw;
         margin-left: 0.1rem;
         margin-right: 0.1rem;
         height: 200px;
     }
 }
+
 @media only screen and (max-width: 800px) {
-    body{
+    body {
         max-width: 100vw;
         justify-content: center;
         margin: 1rem;
     }
-    .video-container center{
+
+    .video-container center {
         /* padding-left: 1rem; */
         justify-content: center;
     }
-    #stadium{
+
+    #stadium {
         margin-top: 0.1rem;
         justify-content: center;
     }
-    .strt{
+
+    .strt {
         font-size: 1rem;
         justify-content: center;
     }
-    .I1{
+
+    .I1 {
         margin-top: 8rem;
         width: 12rem;
         height: 4.5em;
     }
-    #intro{
+
+    #intro {
         justify-content: center;
     }
-    #kit{
+
+    #kit {
         padding: 1rem;
     }
-    .col{
+
+    .col {
         padding: rem;
     }
-    .important__link{
+
+    .important__link {
         list-style: none;
         gap: 0.2rem;
         padding: 0.5rem;
         justify-content: center;
     }
-    .link_button{
+
+    .link_button {
         width: 6.5rem;
         height: 5rem;
         font-size: 0.8rem;
         font-weight: 800;
     }
-    .imgContainer{
+
+    .imgContainer {
         justify-content: center;
         padding: 0;
     }
-    .logo{
+
+    .logo {
         padding: 0;
         width: 8rem;
         height: 6rem;
         margin: 0.5rem;
     }
-    #ic1{
+
+    #ic1 {
         margin: 0.5rem;
     }
-    #ic3{
+
+    #ic3 {
         margin: 0.5rem;
     }
-    #ic2{
+
+    #ic2 {
         margin: 0.5rem;
     }
-    #ic4{
+
+    #ic4 {
         margin: 0.5rem;
     }
-    #ic001{
+
+    #ic001 {
         margin: 0.5rem;
     }
-    #ic002{
+
+    #ic002 {
         margin: 0.5rem;
     }
-    #football{
+
+    #football {
         max-width: 90vw;
         margin-left: 0.1rem;
         margin-right: 0.1rem;
         height: 200px;
     }
-    #kit th{
+
+    #kit th {
         font-size: 15px;
         padding-right: 2.2rem;
     }
-    #kit td{
+
+    #kit td {
         width: 1rem;
         padding-right: 1.5rem;
     }
@@ -386,7 +469,7 @@ img{
 
 
 .navbar {
-    background-color: darkblue; 
+    background-color: darkblue;
     width: 50%;
     margin: 1rem 0 2rem;
     border-radius: 8px;
@@ -413,7 +496,7 @@ img{
     font-size: 18px;
     color: #ecf0f1;
     transition: background-color 0.3s ease;
-    position: relative; 
+    position: relative;
 }
 
 .nav-list li:not(:last-child) a::after {
@@ -428,26 +511,31 @@ img{
     border-radius: 8px;
     color: black;
 }
+
 footer {
     background-color: #38386D;
     height: 100px;
 }
+
 #footer-top {
-    height: 50%; 
+    height: 50%;
     padding-left: 90px;
     padding-right: 90px;
     display: flex;
-    
+
 }
+
 #footer-top-left {
     width: 70%;
     padding-top: 10px;
 }
+
 #footer-top-right {
-    width: 30%; 
+    width: 30%;
     padding-left: 70%;
     padding-top: 15px;
 }
+
 #AIFF-footer {
     text-decoration: none;
     color: black;
@@ -456,16 +544,16 @@ footer {
     margin: 0%;
     padding: 0%;
 }
+
 #footer-bottom a {
     text-decoration: none;
     color: black;
     font-weight: bold;
     padding-left: 80px;
 }
+
 #copyright {
     font-size: 12px;
     float: right;
     padding-right: 80px;
 }
-
-
