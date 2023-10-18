@@ -430,7 +430,7 @@ img{
 }
 footer {
     background-color: #38386D;
-    height: 110px;
+    height: 100px;
 }
 #footer-top {
     height: 50%; 
@@ -441,7 +441,7 @@ footer {
 }
 #footer-top-left {
     width: 70%;
-    padding-top: 15px;
+    padding-top: 10px;
 }
 #footer-top-right {
     width: 30%; 
@@ -449,6 +449,8 @@ footer {
     padding-top: 15px;
 }
 #AIFF-footer {
+    text-decoration: none;
+    color: black;
     font-size: 36px;
     font-weight: bold;
     margin: 0%;
@@ -460,16 +462,10 @@ footer {
     font-weight: bold;
     padding-left: 80px;
 }
-#footer-bottom p {
-    float: right;
-    padding-right: 80px;
-    font-weight: bold;
-}
 #copyright {
     font-size: 12px;
     float: right;
     padding-right: 80px;
-    font-weight: bold;
 }
 
 
