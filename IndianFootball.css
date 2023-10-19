@@ -512,6 +512,7 @@ img {
     color: black;
 }
 
+
 footer {
     background-color: #38386D;
     height: 100px;
@@ -556,4 +557,14 @@ footer {
     font-size: 12px;
     float: right;
     padding-right: 80px;
+}
+
+#scrollToTopBtn{
+    cursor: pointer;
+    /* position: fixed; */
+    margin-left:1430px;
+}
+
+i{
+    font-size: larger;
 }
