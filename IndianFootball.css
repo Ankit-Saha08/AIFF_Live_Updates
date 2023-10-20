@@ -526,30 +526,6 @@ img {
     color: black;
 }
 
-
- /* kits */
- #kits {
-    text-align: center;
-    /* background-color: #5a2469; */
-    color: #fff;
-  }
-  .carousel-item {
-    justify-self: center;
-    padding: 7% 15%;
-  }
-  .carousel-control-prev{
-    left: 25%;
-  }
-  .carousel-control-next{
-    right: 25%;
-  }
-  .kit-img {
-    /* border-radius: 100%; */
-    width: 300px;
-    height: 300px;
-    margin: 20px;
-  }
-
 #scrollToTopBtn {
     position: fixed;
     cursor: pointer;

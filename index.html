@@ -9,8 +9,6 @@
     <meta name="keywords" content="SneakPeek, Indian Football, One-Stop, updates, ISL, AIFF">
     <meta name="description" content="Get easy access to Indian Football updates and weblinks">
     <meta name="robots" content="INDEX, FOLLOW">
-    <!---we are using bootstrap framework for adding carousel features to the website-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!--This allows the search engine to access the links and cotents within our website-->
     <link rel="stylesheet" href="IndianFootball.css"> <!-- This is how we include css file in the head -->
     <title>Indian Football Hub</title>
@@ -110,74 +108,67 @@
     </div>
     <br>
 
-         <h2 class="h2primary">COMPETITIONS PROPER:-</h2> 
-            <div id="list">
-                <div id="list1">
-                    <h2> A. DOMESTIC</h2> 
-                      <ol type="1">
-                        <li>Indian Super League - Elite Division Men's League</li>
-                        <li>I-League - Men's 2nd Division League</li>
-                        <li>Indian Women's League - Elite Division Women's League</li>
-                        <li>I-League Junior - Men's 3rd Division League(under 16)</li>
-                        <li>Youth League - Grassroot development League</li>
-                    </ol> <br>
-                </div>
-                <div id="list2">
-                    <h2>B. INTERNATIONAL</h2>
-                   <ol type="1">
-                      <li>SAFF Competition - South Asian Football Federation Competition</li>
-                      <li>AFC Asian Cup</li>
-                      <li>FIFA WC Qualifiers</li>
-                       <li>International Friendlies</li>
-                    </ol>
-                </div>
-            </div>
-   
-       <br><br><br> 
+    <h2 class="h2primary">COMPETITIONS PROPER:-</h2>
+    <div id="list">
+        <div id="list1">
+            <h2> A. DOMESTIC</h2>
+            <ol type="1">
+                <li>Indian Super League - Elite Division Men's League</li>
+                <li>I-League - Men's 2nd Division League</li>
+                <li>Indian Women's League - Elite Division Women's League</li>
+                <li>I-League Junior - Men's 3rd Division League(under 16)</li>
+                <li>Youth League - Grassroot development League</li>
+            </ol> <br>
+        </div>
+        <div id="list2">
+            <h2>B. INTERNATIONAL</h2>
+            <ol type="1">
+                <li>SAFF Competition - South Asian Football Federation Competition</li>
+                <li>AFC Asian Cup</li>
+                <li>FIFA WC Qualifiers</li>
+                <li>International Friendlies</li>
+            </ol>
+        </div>
+    </div>
 
-       <!---KITS-->
-        
-        <section id="kits">
-            <h2 class="h2primary">Kits:- </h2>
-            <div id="carouselExampleControls" class="carousel slide" data-ride="false">
-              <div class="carousel-inner">
-                
-                <div class="carousel-item active">
-                  <img class="kit-img" src="Home.JPG" alt="Home-Kit" />
-                  <h4>
-                    "Home-Kit"
-                  </h4>
-                </div>
 
-                <div class="carousel-item">
-                  
-                  <img class="kit-img" src="Away.JPG" alt="Away-Kit" />
-                  <h4 class="kit-text">
-                    "Away-Kit"
-                  </h4>
-                </div>
 
-                <div class="carousel-item">
-                    
-                    <img class="kit-img" src="third.png" alt="Third-Kit" />
-                  </div>
-              </div>
-              <a class="carousel-control-prev " href="#carouselExampleControls" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next " href="#carouselExampleControls" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
-            </div>
-          </section>
-        
-       <br><br><br>
-        <strong id="strong" class="h2primary">Important Web Links:- </strong> <br>
-         <!--a is the Anchor tag used to add hyperlinks & target="_blank" is attribute to open in new tabs -->
-       <ol type="1" class="important__link">
+    <br><br><br> <!--Adding TABLES-->
+    <h2 class="h2primary">Kits:- </h2>
+    <div id="table">
+        <table id="kit">
+            <!-- <thead> tag is use to add headings of the table and <tbody> is used to add datas-->
+            <thead class="col">
+                <!-- <tr> tag is used to write in new rows and <th> tag is used to write in new columns -->
+                <tr>
+                    <th id="kit0">HOME KIT</th>
+                    <th id="kit1">AWAY KIT</th>
+                    <th id="kit2">THIRD KIT</th>
+                </tr>
+            </thead>
+            <tbody class="col">
+                <!-- <tr> tag is used to write in new rows and <td> tag is used to write in new columns -->
+                <tr>
+                    <div id="div0">
+                        <td id="image0"><img src="Home.JPG" alt="Image unavailable" height="90" width="80"></td>
+                    </div>
+                    <div>
+                        <td id="image1"><img src="Away.JPG" alt="Image unavailable" height="90" width="80"></td>
+                    </div>
+                    <div>
+                        <td id="image2"><img src="third.jpg" alt="No Third Kit" height="90" width="80"></td>
+                    </div>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 
+
+
+    <br><br><br>
+    <strong id="strong" class="h2primary">Important Web Links:- </strong> <br>
+    <!--a is the Anchor tag used to add hyperlinks & target="_blank" is attribute to open in new tabs -->
+    <ol type="1" class="important__link">
         <li><a href="https://www.indiansuperleague.com/" target="_blank"><button class="link_button" type="submit">Go to
                     ISL homepage</button></a></li><br>
         <li><a href="https://i-league.org/" target="_blank"><button class="link_button" type="reset">Go to I-League
@@ -213,15 +204,6 @@
     </center>
 
     <br><br><br>
-
-    <center>
-        <h5>©RishTech Solutions 2023</h5>
-    </center>
-    <!--================================carousel js===========================-->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
     <footer class="text-center text-lg-start text-white" style="background-color: #38386D">
         <div class="container p-4 pb-0">
             <section class="">
@@ -234,8 +216,10 @@
 
                     </div>
 
+
                     <hr class="w-100 clearfix d-md-none" />
-                  
+
+
                     <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
                         <h6 class="text-uppercase mb-4 font-weight-bold">Check Out</h6>
                         <p>
