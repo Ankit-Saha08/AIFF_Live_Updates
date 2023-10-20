@@ -9,9 +9,15 @@
     animation-name: reveal;
     animation-duration: 5s;
 }
-@keyframes reveal{
-    0%{transform:scale(0);}
-    50%{transform:scale(1);}
+
+@keyframes reveal {
+    0% {
+        transform: scale(0);
+    }
+
+    50% {
+        transform: scale(1);
+    }
 }
 
 html {
@@ -357,6 +363,10 @@ img {
         margin-right: 0.1rem;
         height: 200px;
     }
+
+    .top-btn {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 800px) {
@@ -465,6 +475,10 @@ img {
         width: 1rem;
         padding-right: 1.5rem;
     }
+
+    .top-btn {
+        display: none;
+    }
 }
 
 
@@ -512,59 +526,13 @@ img {
     color: black;
 }
 
-
-footer {
-    background-color: #38386D;
-    height: 100px;
-}
-
-#footer-top {
-    height: 50%;
-    padding-left: 90px;
-    padding-right: 90px;
-    display: flex;
-
-}
-
-#footer-top-left {
-    width: 70%;
-    padding-top: 10px;
-}
-
-#footer-top-right {
-    width: 30%;
-    padding-left: 70%;
-    padding-top: 15px;
-}
-
-#AIFF-footer {
-    text-decoration: none;
-    color: black;
-    font-size: 36px;
-    font-weight: bold;
-    margin: 0%;
-    padding: 0%;
-}
-
-#footer-bottom a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    padding-left: 80px;
-}
-
-#copyright {
-    font-size: 12px;
-    float: right;
-    padding-right: 80px;
-}
-
-#scrollToTopBtn{
+#scrollToTopBtn {
+    position: fixed;
     cursor: pointer;
-    /* position: fixed; */
-    margin-left:1430px;
+    bottom: 1%;
+    right: 1%;
 }
 
-i{
+i {
     font-size: larger;
 }

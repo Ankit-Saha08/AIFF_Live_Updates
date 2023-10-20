@@ -13,20 +13,28 @@
     <link rel="stylesheet" href="IndianFootball.css"> <!-- This is how we include css file in the head -->
     <title>Indian Football Hub</title>
     <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
     <style>
-        .strt{
+        .strt {
             font-size: 2em;
             animation-name: reveal;
             animation-duration: 5s;
 
         }
-        @keyframes reveal{
-            0%{transform:scale(0);}
-            50%{transform:scale(1);}
+
+        @keyframes reveal {
+            0% {
+                transform: scale(0);
+            }
+
+            50% {
+                transform: scale(1);
+            }
         }
-  </style>
+    </style>
 </head>
 
 <!-- Our body starts here -->
@@ -48,10 +56,10 @@
 
     <center>
         <nav class="navbar">
-           <ul class="nav-list">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="Contact_Us.html">Contact Us</a></li>
-           </ul>
+            <ul class="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Contact_Us.html">Contact Us</a></li>
+            </ul>
             <ul class="nav-list">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="#">Contact Us</a></li>
@@ -196,38 +204,78 @@
     </center>
 
     <br><br><br>
-    <footer>
-        <div id="footer-top">
-            <div id="footer-top-left">
-                <a id="AIFF-footer" href="index.html">AIFF</a>
-            </div>
-            <div id="footer-top-right">
-                <a href="https://twitter.com/IndianFootball" target="_blank"><img src="./icons/twitter.png"
-                        alt="twitter-icon"></a>
-                <a href="https://www.instagram.com/IndianFootball/" target="_blank"><img src="./icons/instagram.png"
-                        alt="instagram-icon"></a>
-                <a href="https://www.youtube.com/@IndianFootball/featured" target="_blank"><img
-                        src="./icons/youtube.png" alt="Youtube-icon"></a>
-                <a href="https://www.facebook.com/TheIndianFootballTeam" target="_blank"><img src="./icons/facebook.png"
-                        alt="facebook-icon"></a>
-            </div>
-        </div>
-        <hr style="border: 1px solid black">
-        <div id="footer-bottom">
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms of Services</a>
-            <a href="#">FAQ</a>
-            <a id="copyright">©RishTech Solutions 2023</a>
-        </div>
-    </footer>
+    <footer class="text-center text-lg-start text-white" style="background-color: #38386D">
+        <div class="container p-4 pb-0">
+            <section class="">
 
-    <button id="scrollToTopBtn" onclick="scrollToTop()"><i class="fa-solid fa-arrow-up"></i></button>
-    <center>
-        <h5>©RishTech Solutions 2023</h5>
-    </center>
+                <div class="row">
+
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                        <a class="text-white mb-4 font-weight-bold" href="index.html"
+                            style="font-size: 2.5rem;">AIFF</a>
+
+                    </div>
+
+
+                    <hr class="w-100 clearfix d-md-none" />
+
+
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                        <h6 class="text-uppercase mb-4 font-weight-bold">Check Out</h6>
+                        <p>
+                            <a class="text-white" href="#">Privacy Policy</a>
+                        </p>
+                        <p>
+                            <a class="text-white" href="#">Terms of Services</a>
+                        </p>
+                        <p>
+                            <a class="text-white" href="#">FAQs</a>
+                        </p>
+                    </div>
+
+
+                    <hr class="w-100 clearfix d-md-none" />
+
+                    <hr class="w-100 clearfix d-md-none" />
+
+
+                    <div class="mx-auto mt-3">
+                        <h6 class="text-uppercase mb-4 font-weight-bold">Socials</h6>
+
+                        <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee"
+                            href="https://twitter.com/IndianFootball" role="button"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac"
+                            href="https://www.instagram.com/IndianFootball/" role="button"><i
+                                class="fab fa-instagram"></i></a>
+                        <a class="btn btn-primary btn-floating m-1" style="background-color: #dd4b39"
+                            href="https://www.youtube.com/@IndianFootball/featured" role="button"><i
+                                class="fab fa-youtube"></i></a>
+                        <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998"
+                            href="https://www.facebook.com/TheIndianFootballTeam" role="button"><i
+                                class="fab fa-facebook-f"></i></a>
+
+                    </div>
+                </div>
+
+
+            </section>
+
+
+        </div>
+        <div class="top-btn"><button id="scrollToTopBtn" onclick="scrollToTop()"><i
+                    class="fa-solid fa-arrow-up"></i></button></div>
+
+
+
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+            © RishTech Solutions 2023
+
+        </div>
+
+    </footer>
     <script src="https://kit.fontawesome.com/f71f635db3.js" crossorigin="anonymous"></script>
 
 </body>
-<!-- #9F9FFF -->
+
 
 </html>
