@@ -504,7 +504,8 @@ img {
 }
 
 .nav-list li a {
-    display: block;
+    display: flex;
+    flex-direction: row;
     text-decoration: none;
     padding: 8px 16px;
     border-radius: 5px;
@@ -516,9 +517,10 @@ img {
 }
 /* align the element to center present in the navbar */
 #home{
-    margin-left: 250px;
+    margin-left: 230px;
 }
 #contact{
+    width:130px;
     margin-right: 250px;
 }
 
