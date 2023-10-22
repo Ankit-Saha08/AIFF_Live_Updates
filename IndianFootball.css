@@ -120,6 +120,8 @@ button {
 }
 
 .link_button:hover {
+    padding: 15px 20px 15px 20px;
+    border-radius: 8px;
     cursor: pointer;
     color: black;
     background: white;
@@ -286,7 +288,7 @@ img {
     }
 
     #stadium {
-        margin-top: 0.1rem;
+        margin-top: 0.01rem;
         justify-content: center;
     }
 
@@ -484,7 +486,8 @@ img {
 
 .navbar {
     background-color: darkblue;
-    width: 50%;
+    justify-content: center;
+    width: 500px;
     margin: 1rem 0 2rem;
     border-radius: 8px;
 }
